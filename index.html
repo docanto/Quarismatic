@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Quarismatic</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/Logo-normal-size-light.png" alt="logo quarismatic">
+  </header>
+
+  <! -- banner section -->
+
+    <section class="banner">
+      <div class="banner-align">
+        <div class="clickbait">
+          <h2>PREMIUM SPICE JARS<br><span>LAUNCH SALE!</span></h2>
+        </div>
+        <img class="banner-img" src="img/Front-picture-light.png" alt="Quarismatic set of jars em v">
+        <a href="#" id="button-top" class="button-top">CLAIM YOUR COUPON</a>
+        <h4>Coupon expires in</h4>
+        <div class="countdown">
+          <div class="hour">00</div>
+          <div class="minutes">00</div>
+          <div class="seconds">00</div>
+        </div>
+      </div>
+
+    </section>
+
+    <! -- main content -->
+
+      <main>
+        <div class="main-content">
+          <div class="content">
+            <img src="img/picture-main1.jpg" alt="spice jars pictures">
+            <h2>LIFETIME DURABILITY</h2>
+            <p>Thanks to the stainless steel body, Quarismatic jars will serve you a lifetime.</p>
+          </div>
+          <div class="content">
+            <img src="img/picture-main2.jpg" alt="spice jars pictures">
+            <h2>QUICKLY FIND “THE RIGHT ONE”</h2>
+            <p>The viewing “window” and 40 different spice labels will help you to easily identify what is in each jar.</p>
+          </div>
+          <div class="content">
+            <img src="img/picture-main3.jpg" alt="spice jars pictures">
+            <h2>SAVE YOUR MONEY</h2>
+            <p>Glass material in combination with a dark environment will keep your spices fresh longer.</p>
+          </div>
+        </div>
+        <div class="main-content-footer">
+          <img src="img/blue-icons.png" alt="icons quality">
+        </div>
+      </main>
+
+      <! -- testimonials -->
+
+        <! -- last section -->
+
+          <section>
+            <div class="last-section">
+              <div class="last-section-content">
+                <h1>THE ONLY SPICE JARS YOU’LL EVER NEED</h1>
+                <p>ORGANISE YOUR KITCHEN SPACE THE WAY YOU TRULY WANT</p>
+                <a href="#" id="button-bottom" class="button-bottom">CLAIM YOUR COUPON</a>
+              </div>
+            </div>
+          </section>
+
+          <! -- footer -->
+
+            <footer>
+              <p class="copyright">© Copyright 2021 Quarismatic</p>
+            </footer>
+
+            <! -- popup window -->
+
+              <div class="popup">
+                <div class="content-popup">
+                  <div class="close-popup">+</div>
+                  <h2>Put your email in to unlock your COUPON CODE!</h2>
+                  <form action="#">
+                    <input class="email-sub" type="email" name="email" placeholder="   Email" value="">
+                  </form>
+                  <form action="">
+                    <input class="checkbox-sub" type="checkbox" name="subscription" value="" checked>
+                    <label for="subscription">Subscribe for FREE kitchen hacks & recipes.</label>
+                  </form>
+                  <a href="coupon-code.html" class="button-popup">➔ Click To CLAIM Your Coupon<br>
+                    <p class="p">Limit 1 per Customer</p>
+                  </a>
+                </div>
+              </div>
+</body>
+<! -- button function popup -->
+  <script>
+    document.getElementById('button-top').addEventListener('click', function() {
+      document.querySelector('.popup').style.display = 'flex';
+    });
+    document.getElementById('button-bottom').addEventListener('click', function() {
+      document.querySelector('.popup').style.display = 'flex';
+    });
+    document.querySelector('.close-popup').addEventListener('click', function() {
+      document.querySelector('.popup').style.display = 'none';
+    });
+  </script>
+
+</html>

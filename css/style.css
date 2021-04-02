@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#6AE4F1, #fff, #fff, #fff, #6ae4f1);
+}
+
+
+/*     header  LOGO   */
+header {
+  position: relative;
+}
+
+header img {
+  width: 7%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+/*       banner      */
+.banner-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+}
+
+.clickbait {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  font-size: 1.8rem;
+  order: 1;
+}
+
+.clickbait span {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.banner-img {
+  width: 50%;
+  order: 2;
+}
+
+.button-top {
+  background: #e36410;
+  text-decoration: none;
+  order: 3;
+  color: #f4f4f4;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0px 4px 20px #000;
+  padding: 30px;
+  width: 70vh;
+  height: 15vh;
+  margin: 20px auto;
+  border: #268690 5px solid;
+  border-radius: 35px;
+}
+
+.button-top:hover {
+  background: #ec610a;
+  font-size: 2.4rem;
+}
+
+.banner-align h4 {
+  order: 4;
+}
+
+.countdown {
+  order: 5;
+  font-size: 3rem;
+  width: 20%;
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*     MAIN CONTENT      */
+main img {
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 5%;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content img {}
+
+.content h2 {
+  line-height: 1.5;
+  padding-top: 5%;
+}
+
+.content p {
+  line-height: 2;
+}
+
+.main-content-footer img {
+  width: 100%;
+  height: auto;
+}
+
+/*     TESTIMONIALS       */
+/*      LAST SECTION     */
+.last-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.last-section-content {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.button-bottom {
+  background: #e36410;
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 2.2rem;
+  font-weight: bolder;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0px 4px 20px #000;
+  padding: 20px;
+  width: 70vh;
+  height: 15vh;
+  margin: 60px auto;
+  border: #268690 5px solid;
+  border-radius: 35px;
+}
+
+.button-bottom:hover {
+  background: #ec610a;
+  font-size: 2.4rem;
+}
+
+/*       footer     */
+.copyright {
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+}
+
+/*      popup window    */
+.popup {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.content-popup {
+  width: 100vh;
+  height: 60vh;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 150px auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.content-popup h2 {
+  padding-top: 60px;
+  font-size: 1.8rem;
+}
+
+.email-sub {
+  width: 80vh;
+  height: 8vh;
+  font-size: 1.6rem;
+  margin: 35px auto 7px;
+}
+
+.checkbox-sub {
+  position: absolute;
+  left: 76px;
+}
+
+label {
+  position: absolute;
+  left: 92px;
+}
+
+.button-popup {
+  background: #fc4800;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+  box-shadow: 0px 4px 20px #000;
+  padding: 15px 5px;
+  width: 80vh;
+  height: 15vh;
+  margin: 60px auto;
+  border: #007580 5px solid;
+  border-radius: 35px;
+}
+
+.button-popup:hover {
+  background: #fc4800;
+  font-size: 2.2rem;
+}
+
+.p {
+  font-size: 0.9rem;
+  color: #0a0a0a;
+  padding-top: 20px;
+}
+
+.close-popup {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: bolder;
+  font-size: 2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/*      link coupon code    */
+
+.coupon{
+  background-image: url('../img/code-background.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.coupon h1{
+  text-shadow: 1px 1px #fff;
+  font-size: 2rem;
+  color: #f4f4f4;
+}
+.code{
+  font-size: 2rem;
+  background: #fff;
+  text-shadow: 1px 1px #fff;
+  font-weight: bolder;
+  color: #000;
+}
+.button-deal{
+  background: orange;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  width: 80vh;
+  height: 15vh;
+  border-radius: 45px;
+  padding: 10px;
+}
